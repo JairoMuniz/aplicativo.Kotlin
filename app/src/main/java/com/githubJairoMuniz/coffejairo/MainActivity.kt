@@ -40,8 +40,9 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun FirstComposable(){
     Text("Hello jet pack compose",
-        modifier = Modifier.background(Color.Yellow)
-        .padding(30.dp))
+        modifier = Modifier
+            .background(Color.Yellow)
+            .padding(30.dp))
 
 }
 
